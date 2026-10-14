@@ -84,6 +84,10 @@ internal object EkeyTokenExchange {
             val kycDataUrlString = claims["urn:oneid:ekyc:bhr:data"] as? String
             val accessToken = tokenResponse.optString("access_token").takeIf { it.isNotEmpty() }
 
+            // TEMP DEBUG: remove before release. Prints values for manual curl testing.
+            android.util.Log.d("EkeyDebug", "ACCESS_TOKEN=$accessToken")
+            android.util.Log.d("EkeyDebug", "KYC_URL=$kycDataUrlString")
+
             val kycData = if (kycDataUrlString != null && accessToken != null) {
                 fetchKycData(kycDataUrlString, accessToken)
             } else {

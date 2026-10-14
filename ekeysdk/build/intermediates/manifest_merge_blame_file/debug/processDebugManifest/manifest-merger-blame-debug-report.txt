@@ -7,21 +7,21 @@
 5-->INJECTED
 6
 7    <uses-permission android:name="android.permission.INTERNET" />
-7-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:4:5-67
-7-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:4:22-64
+7-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:4:5-67
+7-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:4:22-64
 8
 9    <application>
-9-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:6:5-29:19
+9-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:6:5-29:19
 10        <activity
-10-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:7:9-28:20
+10-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:7:9-28:20
 11            android:name="com.example.ekeysdk.EkeyLoginActivity"
-11-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:8:13-46
+11-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:8:13-46
 12            android:exported="true"
-12-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:9:13-36
+12-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:9:13-36
 13            android:launchMode="singleTop"
-13-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:10:13-43
+13-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:10:13-43
 14            android:theme="@android:style/Theme.NoTitleBar" >
-14-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:11:13-60
+14-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:11:13-60
 15
 16            <!--
 17                 focus_uri callback for eKey 2.0 app-to-app login: necekey://callback.
@@ -33,24 +33,24 @@
 23                 onCreate rather than routing to onNewIntent, silently dropping the callback.
 24            -->
 25            <intent-filter>
-25-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:20:13-27:29
+25-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:20:13-27:29
 26                <action android:name="android.intent.action.VIEW" />
-26-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:21:17-69
-26-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:21:25-66
+26-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:21:17-69
+26-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:21:25-66
 27
 28                <category android:name="android.intent.category.DEFAULT" />
-28-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:23:17-76
-28-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:23:27-73
+28-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:23:17-76
+28-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:23:27-73
 29                <category android:name="android.intent.category.BROWSABLE" />
-29-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:24:17-78
-29-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:24:27-75
+29-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:24:17-78
+29-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:24:27-75
 30
 31                <data
-31-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:26:17-74
+31-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:26:17-74
 32                    android:host="callback"
-32-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:26:48-71
+32-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:26:48-71
 33                    android:scheme="necekey" />
-33-->/Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:26:23-47
+33-->/Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:26:23-47
 34            </intent-filter>
 35        </activity>
 36    </application>

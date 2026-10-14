@@ -1,52 +1,52 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:6:5-29:19
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:6:5-29:19
 activity#com.example.ekeysdk.EkeyLoginActivity
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:7:9-28:20
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:7:9-28:20
 	android:launchMode
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:10:13-43
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:10:13-43
 	android:exported
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:9:13-36
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:9:13-36
 	android:theme
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:11:13-60
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:11:13-60
 	android:name
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:8:13-46
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:8:13-46
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:callback+data:scheme:necekey
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:20:13-27:29
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:20:13-27:29
 action#android.intent.action.VIEW
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:23:17-76
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:23:17-76
 	android:name
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:23:27-73
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:23:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:24:17-78
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:24:17-78
 	android:name
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:24:27-75
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:24:27-75
 data
-ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:26:17-74
+ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:26:17-74
 	android:host
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:26:48-71
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:26:48-71
 	android:scheme
-		ADDED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml:26:23-47
+		ADDED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml:26:23-47
 uses-sdk
-INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml
-INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml
+INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml
+INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/syeddanish/AndroidStudioProjects/EkeyExampleSDK/ekeysdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/danish/Documents/GitHub/EkeyExampleSDK-And/ekeysdk/src/main/AndroidManifest.xml
