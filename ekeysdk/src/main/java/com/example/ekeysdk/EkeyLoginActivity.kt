@@ -60,7 +60,9 @@ internal class EkeyLoginActivity : ComponentActivity() {
                 }
             ) { innerPadding ->
                 AndroidView(
-                    factory = { webController.webView },
+                    // Container = WebView + loader overlay. Never pass webController.webView here:
+                    // it already has a parent and AndroidView will crash.
+                    factory = { webController.view },
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(innerPadding)
@@ -81,6 +83,12 @@ internal class EkeyLoginActivity : ComponentActivity() {
         if (intent.data?.scheme == EkeyLoginConfig.CUSTOM_URL_SCHEME) {
             controller?.resume()
         }
+    }
+
+    override fun onDestroy() {
+        controller?.webView?.destroy()
+        controller = null
+        super.onDestroy()
     }
 
     private fun cancelAndFinish() {
